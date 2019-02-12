@@ -1,0 +1,29 @@
+.tabs {
+    border: 1px solid #ccc;
+    width: 370px;
+    margin: auto;
+}
+
+.tabs-header {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab-title {
+    background: aqua;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.tab-active {
+    background: blueviolet;
+}
+
+.tabs-content {
+    min-height: 100px;
+    padding: 10px;
+}
